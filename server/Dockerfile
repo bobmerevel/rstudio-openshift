@@ -1,5 +1,5 @@
 # Upstream Dockerfile https://github.com/rocker-org/rocker-versioned/blob/master/tidyverse/3.4.4/Dockerfile
-FROM rocker/tidyverse:4.3.0
+FROM rocker/r-ver:4.3
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
     nano \
